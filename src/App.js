@@ -14,6 +14,8 @@ const ExampleComponent = () => {
   const [payments, setPayments] = useState([]);
   const [selectedDate, setSelectedDate] = useState(new Date());
 
+  console.log(process.env);
+
   useEffect(() => {
     const fetchData = async () => {
       try {

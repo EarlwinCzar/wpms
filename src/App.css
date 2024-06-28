@@ -237,3 +237,13 @@ td {
     width: 100%;
   }
 }
+
+@media (max-width: 430px) {
+  .container {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
